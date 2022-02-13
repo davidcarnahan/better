@@ -54,3 +54,21 @@
   line-height: 26px;
   margin-bottom: 10px;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10% 0 15% 0;
+}
+
+tbody {
+  text-align: center;
+}
+
+tr, td, th {
+  border: 1px solid blanchedalmond;
+  padding: 1%;
+  min-width: 100%;
+  text-align: right;
+  padding: 3px 20px;
+}
