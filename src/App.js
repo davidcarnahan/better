@@ -19,7 +19,7 @@ function App() {
       <div className="App-quote">
         <Quote quotes={quotes} />
       </div>
-      <div className="sliders">
+{/*       <div className="sliders">
         <div id="wisdom">
           <label for="wisdom">Wisdom</label>
           <DiscreteSliderSteps />
@@ -38,7 +38,7 @@ function App() {
           <label for="wisdom">Moderation</label>
           <DiscreteSliderSteps />
         </div>
-      </div>
+      </div> */}
       <div className="App-pledge">
         <div id="pledge-text">
           <Pledge pledges={pledges} />
