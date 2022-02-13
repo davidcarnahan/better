@@ -1,10 +1,11 @@
 import React from 'react';
+import SelectScore from './SelectScore'
 
-function SliderList( {discipline} ) {
+function SliderList({ discipline }) {
     return (
         <tr>
             <td>{discipline.name}</td>
-            <td>{discipline.score}</td>
+            <td><SelectScore /></td>
         </tr>
     )
 }

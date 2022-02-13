@@ -1,7 +1,7 @@
 import React from 'react';
 import SliderRow from './SliderRow';
 
-function SliderTable( {disciplines} ) {
+function SliderTable( {disciplines, score } ) {
     return (
         <table id="disciplines">
             <thead>
